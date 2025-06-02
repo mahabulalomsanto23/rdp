@@ -26,7 +26,7 @@ jobs:
 
     - name: Create new RDP user
       run: |
-        net user santordp "SantoRdp@12345" /add
+        net user santordp "S@nt0Rdp#7539" /add
         net localgroup administrators santordp /add
 
     - name: Start ngrok tunnel
